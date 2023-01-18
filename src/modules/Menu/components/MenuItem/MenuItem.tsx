@@ -20,7 +20,7 @@ export const MenuItem: FC<MenuItemProps> = ({
       <div className="relative">
         <img
           src={imagePath}
-          alt="pizza"
+          alt={title}
           className="object-cover object-center w-full h-[15rem]"
         />
         <span className="absolute bottom-1.5 right-3 bg-gray-900/50 text-white text-sm px-2 rounded-[2rem]">
